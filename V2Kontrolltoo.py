@@ -53,13 +53,13 @@ for k in range(10):
             print("Viga!")
 
 #4
-a = 3486
-b = 0
+a=3486
+b=0
 while a>0:
-    number = a % 10
-    a = a // 10
-    b = b * 10
-    b += number
+    number=a%10
+    a=a//10
+    b=b*10
+    b+=number
 print(b)
 
 #5 EI OLNUD MINU TEHTUD
