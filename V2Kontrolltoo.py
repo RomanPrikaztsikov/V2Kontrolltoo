@@ -37,9 +37,7 @@ katsed=0
 
 while True:
     try:
-        arvan=int(input("Sisesta number 0-100:"))
-        katsed Ascending=True
-        katsed+=1
+        arvan=int(input("Sisesta number 0-100: "))
         if number<arvan:
             print("Number on vähem!")
         if number>arvan:
@@ -47,9 +45,10 @@ while True:
         if number==arvan:
             print("See on õigus")
             break
+        katsed+=1
         if katsed==10:
             print(f"Arvasid valesti! Õige vastus on {number}")
-            break
+        break
     except:
         print("Viga!")
 
