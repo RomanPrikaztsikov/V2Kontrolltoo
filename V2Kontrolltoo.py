@@ -62,21 +62,21 @@ while a>0:
     b+=number
 print(b)
 
-#5 EI OLNUD MINU TEHTUD
+#5
+number=int(input("Sisesta täisarv: "))
 
-number = int(input("Sisesta täisarv: "))
-
-summ = 0
-korrutis = 1
-stringArv = str(number)
+summ=0
+korrutis=1
+stringArv=str(number)
 
 for i in range(len(stringArv)):
-    iArv = int(stringArv[i])
+    iArv=int(stringArv[i])
     print(iArv)
-    summ += iArv
-    korrutis *= iArv
+    summ+=iArv
+    korrutis*=iArv
 
-print(f"Summa on {summ}, korruts on {korrutis}")
+print(f"Summa on {summ}, korrutis on {korrutis}")
+
 
 
 
