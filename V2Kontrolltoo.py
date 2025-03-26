@@ -35,22 +35,23 @@ import random
 number=random.randint(0, 100)
 katsed=0
 
-for k in range(10):
-    while True:
-        try:
-            arvan=int(input("Sisesta number 0-100: "))
-            if number<arvan:
-                print("Number on vähem!")
-            if number>arvan:
-                print("Number on suurem!")
-            if number==arvan:
-                print("See on õigus")
-            katsed+=1
-            if katsed==10:
-                print(f"Arvasid valesti! Õige vastus on {number}")
+while True:
+    try:
+        arvan=int(input("Sisesta number 0-100:"))
+        katsed Ascending=True
+        katsed+=1
+        if number<arvan:
+            print("Number on vähem!")
+        if number>arvan:
+            print("Number on suurem!")
+        if number==arvan:
+            print("See on õigus")
             break
-        except:
-            print("Viga!")
+        if katsed==10:
+            print(f"Arvasid valesti! Õige vastus on {number}")
+            break
+    except:
+        print("Viga!")
 
 #4
 a=3486
