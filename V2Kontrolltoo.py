@@ -48,7 +48,7 @@ while True:
         katsed+=1
         if katsed==10:
             print(f"Arvasid valesti! Õige vastus on {number}")
-        break
+            break
     except:
         print("Viga!")
 
